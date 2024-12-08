@@ -1,0 +1,9 @@
+RSC/SVN. Actividad 3. Diferencias entre los SCV locales y centralizados.
+
+Existen dos tipos principales de sistemas de control de versiones (SCV): locales y centralizados. A continuación se detallan las diferencias clave entre ambos:
+
+SCV locales: En un sistema de control de versiones local, cada desarrollador tiene una copia completa del proyecto en su propio equipo. Las actualizaciones y el historial de cambios se gestionan de manera independiente en cada máquina. Sin embargo, esto puede generar inconsistencias si los desarrolladores no sincronizan regularmente sus copias entre sí.
+
+SCV centralizados: En un sistema de control de versiones centralizado, un servidor central almacena la versión oficial y única del proyecto. Los desarrolladores descargan la versión del servidor y suben sus cambios de vuelta a él. Esta estructura facilita una gestión más ordenada y asegura que todos los desarrolladores trabajen con la misma versión centralizada, lo que mejora la coherencia en el control de versiones.
+
+En resumen, los SCV locales ofrecen mayor rapidez y autonomía, mientras que los SCV centralizados proporcionan una mejor coordinación y control centralizado de los cambios.

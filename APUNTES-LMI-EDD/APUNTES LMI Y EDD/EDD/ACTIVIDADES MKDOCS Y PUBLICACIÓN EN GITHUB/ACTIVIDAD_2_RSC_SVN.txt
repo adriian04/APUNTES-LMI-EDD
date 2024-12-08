@@ -1,0 +1,12 @@
+RSC/SVN. Actividad 2. Control de versiones y desarrollo iterativo. Estructura propuesta con múltiples snapshots.
+
+El control de versiones es una herramienta clave para llevar un registro detallado de los cambios realizados a lo largo del ciclo de vida de un proyecto. En este contexto, el desarrollo iterativo es un enfoque eficaz que consiste en generar versiones (o "snapshots") del código en cada fase del desarrollo.
+
+Una estructura sugerida con varios snapshots podría ser la siguiente:
+
+1. Versión inicial: La primera versión funcional del código, con las características fundamentales implementadas.
+2. Iteración 1: Introducción de nuevas funcionalidades o corrección de errores detectados.
+3. Iteración 2: Mejoras adicionales en las funcionalidades y optimización del rendimiento.
+4. Iteración final: La versión final, lista para producción, destinada a ser entregada o desplegada.
+
+Este enfoque asegura que el proyecto se mantenga bien organizado, y cada snapshot refleja claramente el progreso realizado en cada etapa del desarrollo.

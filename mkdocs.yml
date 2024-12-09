@@ -16,12 +16,12 @@ extra_css:
 nav:
   - Inici: index.md
   - EDD:
-    - Article sobre com plantejarieu el desenvolupament d'una app (llenguatges, tecnologies, etc.): EDD/document_2.md
-    - Buscar els llenguatges més utilitzats i indicar les seues característiques (a mode de ressum d'aquest article podríes incloure alguna taula amb Markdown): EDD/document_1.md
-    - Exemples de traducció. Les ordres python3, cc, java i javac.: EDD/document_3.md
-    - L'efecte Bola de neu.: EDD/document_4.md
-    - La web d'una empresa: EDD/document_5.md
-    - Scrum, Comflicte d'interessos: EDD/document_6.md
+    - Article sobre com plantejarieu el desenvolupament d'una app (llenguatges, tecnologies, etc.): EDD/ARTICULOS/ARTICLE_2.md
+    - Buscar els llenguatges més utilitzats i indicar les seues característiques (a mode de ressum d'aquest article podríes incloure alguna taula amb Markdown): EDD/ARTICULOS/ARTICLE_1.md
+    - Exemples de traducció. Les ordres python3, cc, java i javac.: EDD/ARTICULOS/ARTICLE_3.md
+    - L'efecte Bola de neu.: EDD/ARTICULOS/ARTICLE_4.md
+    - La web d'una empresa: EDD/ARTICULOS/ARTICLE_5.md
+    - Scrum, Comflicte d'interessos: EDD/ARTICULOS/ARTICLE_6.md
   - LMI:
-    - Identifcar caracteristiques dels llenguatges de marques en diferents documents: LMI/document_1.md
-    - Identificació dels espais de noms en documents (AndroidManifest.xml).: LMI/document_2.md
+    - Identifcar caracteristiques dels llenguatges de marques en diferents documents: LMI/ARTICULOS/ARTICLE_1.md
+    - Identificació dels espais de noms en documents (AndroidManifest.xml).: LMI/ARTICULOS/ARTICLE_2.md

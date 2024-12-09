@@ -1,0 +1,25 @@
+RSC/SVN. Actividad 4. Descripción de las órdenes para RCS y SVN. Justificación de las diferencias entre co y ci en SVN y RCS.
+
+Las herramientas de control de versiones como RCS y SVN proporcionan comandos esenciales para gestionar el código y sus versiones. A continuación, se describen los comandos clave:
+
+RCS: RCS (Revision Control System) es un sistema de control de versiones más antiguo que maneja las versiones de un solo archivo a la vez.
+
+co (checkout): Este comando se utiliza para obtener una copia de trabajo de un archivo desde el repositorio. También permite trabajar con versiones anteriores del archivo.
+ci (check-in): Este comando se usa para subir los cambios realizados en un archivo al repositorio de RCS, registrando una nueva versión.
+SVN: SVN (Apache Subversion) es un sistema de control de versiones más moderno y avanzado que permite gestionar múltiples archivos y directorios dentro de un proyecto.
+
+svn co (checkout): Similar al comando co en RCS, este comando descarga una copia de trabajo de los archivos y directorios del repositorio.
+svn ci (commit): Al igual que en RCS, svn ci se utiliza para subir los cambios al repositorio central. Sin embargo, en SVN, este comando también permite realizar operaciones en masa con múltiples archivos y directorios.
+Diferencias clave entre co y ci en RCS y SVN:
+
+Alcance del repositorio:
+
+RCS está diseñado para gestionar las versiones de archivos individuales, lo que limita la flexibilidad al trabajar en proyectos más grandes.
+SVN, por su parte, puede gestionar repositorios completos, lo que permite controlar versiones no solo de archivos, sino también de directorios y estructuras más complejas.
+Operaciones en masa:
+
+Mientras que en RCS las operaciones co y ci se limitan a archivos individuales, en SVN los comandos permiten operar sobre varios archivos y directorios simultáneamente, lo que facilita el trabajo en proyectos grandes y distribuidos.
+Desarrollo colaborativo:
+
+SVN está diseñado con un enfoque colaborativo en mente, permitiendo a varios desarrolladores trabajar en el mismo proyecto de manera más eficiente, mientras que RCS es más adecuado para el trabajo de una sola persona o equipos pequeños con necesidades más simples.
+En resumen, aunque ambos sistemas utilizan comandos similares, las capacidades y el alcance de SVN son mucho mayores, lo que lo hace más adecuado para proyectos colaborativos y de mayor escala.

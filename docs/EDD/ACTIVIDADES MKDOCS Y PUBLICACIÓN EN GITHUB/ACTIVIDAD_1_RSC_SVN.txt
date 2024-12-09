@@ -1,0 +1,10 @@
+RSC/SVN. Actividad 1. Desarrollo colaborativo. Justificación del uso de herramientas para el control de versiones.
+
+El desarrollo colaborativo es un proceso en el que varios desarrolladores trabajan de manera conjunta en un proyecto, lo que requiere una gestión eficiente del código y sus versiones. Las herramientas de control de versiones (CVS), como Git y SVN, son esenciales para facilitar este proceso. Estas herramientas permiten:
+
+1. Gestionar las versiones del código: Cada desarrollador puede trabajar de manera independiente en su propia rama y, posteriormente, integrar sus cambios sin perder información.
+2. Resolver conflictos: En situaciones donde varios desarrolladores modifican el mismo archivo, el control de versiones facilita la identificación y resolución de estos conflictos.
+3. Mejorar la trazabilidad: Almacenar un historial de todos los cambios realizados y registrar quién fue el autor de cada modificación.
+
+El uso de un sistema de control de versiones mejora la organización y coherencia del proyecto, al mismo tiempo que reduce los riesgos asociados a modificaciones accidentales o inconsistentes.
+

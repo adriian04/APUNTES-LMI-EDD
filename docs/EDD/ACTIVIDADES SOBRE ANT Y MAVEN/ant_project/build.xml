@@ -1,0 +1,15 @@
+
+<project name="Calculadora" default="run" basedir=".">
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="build"/>
+        <javac srcdir="src" destdir="build"/>
+    </target>
+
+    <target name="run" depends="compile">
+        <java classname="Calculadora" classpath="build"/>
+    </target>
+</project>

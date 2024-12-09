@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horari del curs 2024-25</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #77cdd8;
+            font-weight: bold;
+        }
+        .lmi { background-color: gainsboro; }    /* Llenguatges de Marcas i Gestió d'Informació */
+        .si { background-color: #3c4983; }     /* Sistemes Informàtics */
+        .prg { background-color: #bdc916; }    /* Programació */
+        .ingles { background-color: #7ed84a; } /* Inglés */
+        .bd { background-color: #2ada7f; }     /* Bases de Dades */
+        .edd { background-color: #63533d; }    /* Entorns de Desenvolupament */
+        .projint { background-color: #c56e0b1e; } /* Projecte Intermodular */
+        .ipoi { background-color: #974d22; }   /* Interfícies i Protocols d’Usuari */
+        .pati {
+            font-weight: bold;
+            background-color: #c24d09;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="6">Horari del curs 2024-25</th>
+            </tr>
+            <tr>
+                <th>HORA</th>
+                <th>Dilluns</th>
+                <th>Dimarts</th>
+                <th>Dimecres</th>
+                <th>Dijous</th>
+                <th>Divendres</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00 - 8:55</td>
+                <td class="lmi" rowspan="2">LMI</td>
+                <td class="si">SI</td>
+                <td class="prg" rowspan="2">PRG</td>
+                <td class="ingles">INGLÉS</td>
+                <td class="si">SI</td>
+            </tr>
+            <tr>
+                <td>8:55 - 9:50</td>
+                <td class="lmi">LMI</td>
+                <td class="prg" rowspan="2">PRG</td>
+                <td class="bd" rowspan="2">BD</td>
+            </tr>
+            <tr>
+                <td>9:50 - 10:45</td>
+                <td class="si">SI</td>
+                <td class="ipoi">IPO-I</td>
+                <td class="bd">BD</td>
+            </tr>
+            <tr>
+                <td>10:45 - 11:15</td>
+                <td colspan="5" class="pati">PATI</td>
+            </tr>
+            <tr>
+                <td>11:15 - 12:10</td>
+                <td class="si">SI</td>
+                <td class="edd">EDD</td>
+                <td class="si" rowspan="2">SI</td>
+                <td class="bd" rowspan="2">BD</td>
+                <td class="prg" rowspan="2">PRG</td>
+            </tr>
+            <tr>
+                <td>12:10 - 13:05</td>
+                <td class="edd" rowspan="2">EDD</td>
+                <td class="prg" rowspan="2">PRG</td>
+            </tr>
+            <tr>
+                <td>13:05 - 14:00</td>
+                <td class="projint">PROJ.INT</td>
+                <td class="ipoi">IPO-I</td>
+                <td class="ipoi">IPO-I</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

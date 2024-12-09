@@ -24,9 +24,6 @@
     
       <link rel="stylesheet" href="assets/stylesheets/main.0253249f.min.css">
       
-        
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
-      
       
 
 
@@ -44,7 +41,7 @@
       
     
     
-      <link rel="stylesheet" href="overrides/extra.css">
+      <link rel="stylesheet" href="extra.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -56,23 +53,13 @@
   </head>
   
   
-    
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="pink">
+    <body dir="ltr">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
-      
-        
-        <a href="#pagina-de-apuntes-de-lmi-y-edd" class="md-skip">
-          Skip to content
-        </a>
       
     </div>
     <div data-md-component="announce">
@@ -113,8 +100,8 @@
       </div>
     </div>
     
-      
     
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -205,19 +192,6 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Inici
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
       
       <a href="." class="md-nav__link md-nav__link--active">
         
@@ -228,34 +202,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#indice" class="md-nav__link">
-    <span class="md-ellipsis">
-      INDICE
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -530,25 +476,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#indice" class="md-nav__link">
-    <span class="md-ellipsis">
-      INDICE
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -567,30 +494,42 @@
                   
 
 
-<h1 id="pagina-de-apuntes-de-lmi-y-edd">PAGINA DE APUNTES DE LMI Y EDD</h1>
-<hr />
-<h2 id="indice">INDICE</h2>
-<ul>
-<li>
-<p>LMI:</p>
-<ul>
-<li><a href="LMI/ARTICULOS/ARTICLE_1/">Identificar característiques dels llenguatges de marques en diferents documents (svg, html, xml...)</a></li>
-<li><a href="LMI/ARTICULOS/ARTICLE_2/">Identificació dels espais de noms en documents (AndroidManifest.xml).</a></li>
-</ul>
-</li>
-<li>
-<p>EDD:</p>
-<ul>
-<li><a href="EDD/ARTICULOS/ARTICLE_1/">Buscar els llenguatges més utilitzats i indicar les seues característiques (a mode de ressum d'aquest article podríes incloure alguna taula amb Markdown)</a></li>
-<li><a href="EDD/ARTICULOS/ARTICLE_2/">Article sobre com plantejarieu el desenvolupament d'una app (llenguatges, tecnologies, etc.)</a></li>
-<li><a href="EDD/ARTICULOS/ARTICLE_3/">Exemples de traducció. Les ordres python3, cc, java i javac.</a></li>
-<li><a href="EDD/ARTICULOS/ARTICLE_4/">L'efecte Bola de neu</a></li>
-<li><a href="EDD/ARTICULOS/ARTICLE_5/">La web d'una empresa</a></li>
-<li><a href="EDD/ARTICULOS/ARTICLE_6/">Scrum: Comflicte d'interessos</a></li>
-</ul>
-<hr />
-</li>
-</ul>
+  <h1>Inici</h1>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Índice - LMI y EDD</title>
+    <link rel="stylesheet" href="extra.css">
+</head>
+<body>
+    <div id="indice">
+        <h2>Índice</h2>
+        <ul>
+            <li>
+                <strong>LMI:</strong>
+                <ul>
+                    <li><a href="LMI/ARTICULOS/ARTICLE_1.md">Identificar característiques dels llenguatges de marques en diferents documents (svg, html, xml...)</a></li>
+                    <li><a href="LMI/ARTICULOS/ARTICLE_2.md">Identificació dels espais de noms en documents (AndroidManifest.xml).</a></li>
+                </ul>
+            </li>
+            <li>
+                <strong>EDD:</strong>
+                <ul>
+                    <li><a href="EDD/ARTICULOS/ARTICLE_1.md">Buscar els llenguatges més utilitzats i indicar les seues característiques (a mode de ressum d'aquest article podríes incloure alguna taula amb Markdown)</a></li>
+                    <li><a href="EDD/ARTICULOS/ARTICLE_2.md">Article sobre com plantejarieu el desenvolupament d'una app (llenguatges, tecnologies, etc.)</a></li>
+                    <li><a href="EDD/ARTICULOS/ARTICLE_3.md">Exemples de traducció. Les ordres python3, cc, java i javac.</a></li>
+                    <li><a href="EDD/ARTICULOS/ARTICLE_4.md">L'efecte Bola de neu</a></li>
+                    <li><a href="EDD/ARTICULOS/ARTICLE_5.md">La web d'una empresa</a></li>
+                    <li><a href="EDD/ARTICULOS/ARTICLE_6.md">Scrum: Comflicte d'interessos</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
 
 
 

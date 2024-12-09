@@ -4,15 +4,15 @@ site_dir: 'docs'
 theme:
   name: 'material'
   custom_dir: 'overrides'
-  palette:
-    primary: 'indigo'
-    accent: 'pink'
-    background: 'white'
-    surface: 'grey'
-    error: 'red'
+  #palette:
+  #  primary: 'indigo'
+   # accent: 'pink'
+    #background: 'white'
+    #surface: 'grey'
+    #error: 'red'
 
 extra_css:
-  - 'overrides/extra.css'
+  - 'extra.css'
 nav:
   - Inici: index.md
   - EDD:

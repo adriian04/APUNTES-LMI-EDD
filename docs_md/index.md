@@ -3,7 +3,7 @@ ___________________________________________________________
 ## INDICE
 
 * LMI:
-    * [Identificar característiques dels llenguatges de marques en diferents documents (svg, html, xml...)](LMI/ARTICULOS/ARTICLE_1)
+    * [Identificar característiques dels llenguatges de marques en diferents documents (svg, html, xml...)](https://adriian04.github.io/APUNTES-LMI-EDD/EDD/ARTICULOS/ARTICLE_2/)
     * [Identificació dels espais de noms en documents (AndroidManifest.xml).](LMI/ARTICULOS/ARTICLE_2.md)
 
 * EDD:

@@ -1,18 +1,52 @@
-body {
+/* Estilo general del índice */
+#indice {
+    width: 250px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
-    margin: 0;
-    padding: 20px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    overflow-y: auto;
+    max-height: 90vh;
 }
 
-h1 {
+/* Título del índice */
+#indice h2 {
     font-size: 1.5em;
-    font-weight: bold;
+    margin-bottom: 10px;
     text-align: center;
-    margin-bottom: 20px;
-    color: #444;
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+}
+
+/* Lista de elementos */
+#indice ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#indice ul li {
+    margin: 8px 0;
+}
+
+/* Enlaces del índice */
+#indice ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1em;
+    padding: 8px 12px;
+    display: block;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#indice ul li a:hover {
+    background-color: #007bff;
+    color: #fff;
 }

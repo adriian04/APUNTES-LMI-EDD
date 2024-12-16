@@ -8,4 +8,4 @@ En aquest article, parlaré sobre com funciona la traducció del codi font en Py
 
 El codi en Python no necessita compilar-se. L’intèrpret llegeix i executa les instruccions directament. Això fa que sigui molt fàcil de provar i modificar. Per exemple:
 
-[HolaMon.java](srv/APUNTES-LMI-EDD/docs_md/EDD/ARTICULOS/HolaMon.java)
+[HolaMon.java](HolaMon.java)

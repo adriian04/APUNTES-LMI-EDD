@@ -1,24 +1,13 @@
-# Exemples de traducció. Les ordres python3, cc, java i javac.
+# Article Traductors: Python, C i Java
 
-A continuació, es mostren exemples de com utilitzar les ordres **python3**, **cc**, **java**, i **javac** per compilar i executar programes en diferents llenguatges. També incloc una breu explicació de cada ordre:
+En aquest article, parlaré sobre com funciona la traducció del codi font en Python, C i Java. Mostraré exemples senzills per veure com passa de codi font a un programa executable o interpretable.
 
-## 1. **Python (python3)**
+## Python: Un llenguatge interpretat
 
-* **Objectiu**: Executar un programa Python.
-* **Ordre**: `python3 <nom_fitxer.py>`
-* **Exemple**:
-    `python3 script.py`
+### Exemple de codi Python
 
-## 2. C (cc)
+El codi en Python no necessita compilar-se. L’intèrpret llegeix i executa les instruccions directament. Això fa que sigui molt fàcil de provar i modificar. Per exemple:
 
-- **Objectiu**: Compilar un programa escrit en C.
-- **Ordre**: `cc <nom_fitxer.c> -o <nom_programa>`
-- **Exemple**:
-    `cc programa.c -o programa`
-
-## 3. Java (java)
-
-- **Objectiu**: Executar un programa Java després d'haver-lo compilat.
-- **Ordre**: `java <nom_classe>`
-- **Exemple**:
-    `java Main`
+```python
+# Exemple de codi Python
+print("Hola, món!")

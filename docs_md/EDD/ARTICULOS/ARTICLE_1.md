@@ -1,10 +1,36 @@
-# Buscar els llenguatges més utilitzats i indicar les seues característiques (a mode de ressum d'aquest article podríes incloure alguna taula amb Markdown)
-Els llenguatjes pricipals de programasio son els seguents **Python**, **JavaScript**, **Java**, **C** y **C++**, aqui podemos observar una tabla con sus principales caracteristicas:
+# Llenguatges de Programació Més Comuns
 
-| **Llenguatge** | **Tipus** | **Ús principal** | **Característiques** | **Popularitat** |
-|----------------|-----------|------------------|----------------------|-----------------|
-| **Python**     | Interpretat, Alt nivell | Data Science, IA, Desenvolupament web | Senzillesa, gran comunitat, llibreries robustes | Molt popular en ciència de dades i IA |
-| **JavaScript** | Interpretat, Alt nivell | Desenvolupament web (frontend i backend) | Executable en el navegador, suport per a frameworks com React, Node.js | Essencial per a aplicacions web |
-| **Java**       | Compilat, Alt nivell | Aplicacions empresarials, Android | Seguretat, escalabilitat, portable gràcies a la JVM | Molt usat en el món empresarial |
-| **C**          | Compilat, Baix nivell | Sistemes operatius, programari d'alt rendiment | Control directe del hardware, eficiència, rapidesa | Clàssic en aplicacions d'alt rendiment |
-| **C++**        | Compilat, Baix nivell | Videojocs, aplicacions d'alt rendiment | Millores sobre C, programació orientada a objectes | Usat en motors de jocs i software d'enginyeria |
+En aquest article, parlaré sobre els llenguatges de programació més comuns i les seves característiques.
+
+## Llenguatges més utilitzats
+
+- **Python**: És un llenguatge molt popular per a la ciència de dades, desenvolupament web, i automatització. És interpretat i de molt alt nivell d'abstracció.
+- **Java**: S'utilitza per a aplicacions mòbils (Android), empresarials i de gran escala. És un llenguatge compilat i orientat a objectes.
+- **C**: És un llenguatge de baix nivell i es fa servir molt per al desenvolupament de sistemes operatius i programació a nivell de maquinari.
+- **JavaScript**: És un llenguatge molt usat per al desenvolupament web (frontend i backend amb Node.js). És interpretat i té un paradigma orientat a objectes.
+
+## Característiques dels Llenguatges
+
+### Python
+- **Abstracció**: Alta
+- **Tipus**: Interpretat
+- **Propòsit**: Desenvolupament web, ciència de dades
+- **Paradigma**: Imperatiu, funcional
+
+### Java
+- **Abstracció**: Mitjana
+- **Tipus**: Compilat
+- **Propòsit**: Aplicacions corporatives, Android
+- **Paradigma**: Orientat a objectes
+
+### C
+- **Abstracció**: Baixa
+- **Tipus**: Compilat
+- **Propòsit**: Sistemes operatius, maquinari
+- **Paradigma**: Imperatiu
+
+### JavaScript
+- **Abstracció**: Mitjana
+- **Tipus**: Interpretat
+- **Propòsit**: Desenvolupament web
+- **Paradigma**: Orientat a objectes, funcional
